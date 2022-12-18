@@ -1,5 +1,7 @@
+import Nav from './components/Nav'
+
 function App() {
-  return <p>Hello World!</p>
+  return <Nav />
 }
 
 export default App
