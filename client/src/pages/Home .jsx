@@ -1,7 +1,5 @@
 import myPicture from "../images/my_picture.png"
 import laptopMan from "../images/laptop_man.png"
-import whackAMole from "../images/whack_a_mole.png"
-import wishList from "../images/wish_list.png"
 import { Link } from "react-router-dom"
 
 const Home = () => {
@@ -41,7 +39,7 @@ const Home = () => {
               {/* <a href="#" className="card-link">Website</a> */}
             </div>
             <div className="card-footer text-muted">
-              Last update: December 19 , 2022
+              Last update: December 19, 2022
             </div>
           </div>
         </div>
