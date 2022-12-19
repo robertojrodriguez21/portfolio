@@ -35,6 +35,14 @@
   color: white;
 }
 
+.laptopMan {
+  width: 200px;
+}
+
+.contact-page-icon {
+  width: 50px;
+}
+
 @media only screen and (max-width: 480px) {
   .App {
     text-align: center;
