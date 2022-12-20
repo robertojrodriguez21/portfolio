@@ -1,6 +1,7 @@
 import emailIcon from "../images/email_icon_white.png"
 import linkedInIcon from "../images/linkedin_icon_white.png"
 import gitHubIcon from "../images/github_icon_white.png"
+import resume from "../documents/Resume - Roberto J. Rodriguez.pdf"
 
 const Footer = () => {
   return (
@@ -19,6 +20,11 @@ const Footer = () => {
           <a href="https://github.com/robertojrodriguez21" target='_blank'><img src={gitHubIcon} alt="GitHub Icon" /></a>
         </div>
       </div>
+      <br />
+      <a href={resume} download>
+        <button type="button" className="btn btn-info">Download Resume</button>
+      </a>
+      <br />
       <br />
       <div>ⓒ2022 Roberto J. Rodriguez</div>
       <br />
