@@ -1,6 +1,5 @@
 import myPicture from "../images/my_picture.png"
 import laptopMan from "../images/laptop_man.png"
-import resume from "../documents/Resume - Roberto J. Rodriguez.pdf"
 import { Link } from "react-router-dom"
 
 const Home = () => {
