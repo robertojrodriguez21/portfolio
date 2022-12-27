@@ -14,15 +14,17 @@ const Footer = () => {
       </a>
       <br />
       <br />
-      <div className="container-fluid row justify-content-center">
-        <div className="contact-link col-lg-1">
-          <a href="https://www.linkedin.com/in/robertojrodriguez21/" target='_blank'><img src={linkedInIcon} alt="LinkedIn Icon" /></a>
-        </div>
-        <div className="contact-link col-lg-1">
-          <a href="mailto: robertojrodriguez21@gmail.com"><img src={emailIcon} alt="Email Icon" /></a>
-        </div>
-        <div className="contact-link col-lg-1">
-          <a href="https://github.com/robertojrodriguez21" target='_blank'><img src={gitHubIcon} alt="GitHub Icon" /></a>
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <div className="contact-link col-lg-1">
+            <a href="https://www.linkedin.com/in/robertojrodriguez21/" target='_blank'><img src={linkedInIcon} alt="LinkedIn Icon" /></a>
+          </div>
+          <div className="contact-link col-lg-1">
+            <a href="mailto: robertojrodriguez21@gmail.com"><img src={emailIcon} alt="Email Icon" /></a>
+          </div>
+          <div className="contact-link col-lg-1">
+            <a href="https://github.com/robertojrodriguez21" target='_blank'><img src={gitHubIcon} alt="GitHub Icon" /></a>
+          </div>
         </div>
       </div>
       <br />

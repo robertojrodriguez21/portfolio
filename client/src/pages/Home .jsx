@@ -5,14 +5,16 @@ const Home = () => {
   return (
     <div className="container">
       <br />
-      <div className="container row">
-        <div className="col-lg-2 col-sm-12 my-picture-container">
-          <img className="my-picture" src={myPicture} alt="" />
-        </div>
-        <div className="col-lg-10 col-sm-12 align-self-center">
-          <h1>Hi, I'm Roberto.</h1>
-          <h5>Full-Stack Web Developer</h5>
-          <h3>I am a full-stack web application developer based in Illinois.</h3>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-2 col-sm-12 my-picture-container">
+            <img className="my-picture" src={myPicture} alt="" />
+          </div>
+          <div className="col-lg-10 col-sm-12 align-self-center">
+            <h1>Hi, I'm Roberto.</h1>
+            <h5>Full-Stack Web Developer</h5>
+            <h3>I am a full-stack web application developer based in Illinois.</h3>
+          </div>
         </div>
       </div>
       <hr />
