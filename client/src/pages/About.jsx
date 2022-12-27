@@ -1,5 +1,6 @@
 import laptopMan from "../images/laptop_man.png"
 import { Link } from "react-router-dom"
+import resume from "../documents/Resume - Roberto J. Rodriguez.docx"
 
 const About = () => {
   return (
@@ -14,6 +15,12 @@ const About = () => {
       </div>
       <hr />
       <div className="container">
+        <br />
+        <div className="container">
+          <a href={resume} download>
+            <button type="button" className="btn btn-primary btn-lg">Download Resume</button>
+          </a>
+        </div>
         <br />
         <div className="container">
           <Link to={'/portfolio'}>

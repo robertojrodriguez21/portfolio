@@ -1,7 +1,7 @@
 import emailIcon from "../images/email_icon_white.png"
 import linkedInIcon from "../images/linkedin_icon_white.png"
 import gitHubIcon from "../images/github_icon_white.png"
-import resume from "../documents/Resume - Roberto J. Rodriguez.pdf"
+import resume from "../documents/Resume - Roberto J. Rodriguez.docx"
 
 const Footer = () => {
   return (
