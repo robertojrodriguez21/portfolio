@@ -9,6 +9,11 @@ const Footer = () => {
       <br />
       <h1>Let's Chat!</h1>
       <br />
+      <a href={resume} download>
+        <button type="button" className="btn btn-info">Download Resume</button>
+      </a>
+      <br />
+      <br />
       <div className="container-fluid row justify-content-center">
         <div className="contact-link col-lg-1">
           <a href="https://www.linkedin.com/in/robertojrodriguez21/" target='_blank'><img src={linkedInIcon} alt="LinkedIn Icon" /></a>
@@ -20,11 +25,6 @@ const Footer = () => {
           <a href="https://github.com/robertojrodriguez21" target='_blank'><img src={gitHubIcon} alt="GitHub Icon" /></a>
         </div>
       </div>
-      <br />
-      <a href={resume} download>
-        <button type="button" className="btn btn-info">Download Resume</button>
-      </a>
-      <br />
       <br />
       <div>ⓒ2022 Roberto J. Rodriguez</div>
       <br />

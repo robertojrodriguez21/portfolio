@@ -59,7 +59,7 @@ const Projects = () => {
             <img src="https://raw.githubusercontent.com/robertojrodriguez21/wish-list/main/images/Home.png" alt="Wish List App Landing Page" />
             <div className="card-body">
               <a href="https://github.com/robertojrodriguez21/wish-list" className="card-link">GitHub</a>
-              <a href="https://wish-list-1.herokuapp.com/" className="card-link">Website</a>
+              <a href="https://calm-coast-76645.herokuapp.com/" className="card-link">Website</a>
             </div>
             <div className="card-footer text-muted">
               Last update: November 2, 2022
