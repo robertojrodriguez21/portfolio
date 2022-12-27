@@ -1,6 +1,7 @@
 import emailIcon from "../images/email_icon.png"
 import linkedInIcon from "../images/linkedin_icon.png"
 import gitHubIcon from "../images/github_icon.png"
+import resume from "../documents/Resume - Roberto J. Rodriguez.docx"
 
 const Contact = () => {
   return (
@@ -8,6 +9,12 @@ const Contact = () => {
       <br />
       <h1>Contact Me</h1>
       <hr />
+      <div className="container">
+        <a href={resume} download>
+          <button type="button" className="btn btn-primary btn-lg">Download Resume</button>
+        </a>
+      </div>
+      <br />
       <div className="container">
         <div className="row">
           <a className="col-1 text-end" href="https://www.linkedin.com/in/robertojrodriguez21/"><img className="contact-page-icon" src={linkedInIcon} alt="LinkedIn Icon" /></a>
