@@ -19,8 +19,7 @@ const Projects = () => {
             <img src="https://raw.githubusercontent.com/robertojrodriguez21/finance-tracker/main/diagrams/homepage.png" alt="Finance Tracker Home Page" />
             <div className="card-body">
               <a href="https://github.com/robertojrodriguez21/finance-tracker" className="card-link">GitHub</a>
-              <a href="" className="card-link">Deployment Coming Soon</a>
-              {/* <a href="#" className="card-link">Website</a> */}
+              <a href="https://finance-tracker-fe.herokuapp.com/" className="card-link">Website</a>
             </div>
             <div className="card-footer text-muted">
               Last update: December 19, 2022
