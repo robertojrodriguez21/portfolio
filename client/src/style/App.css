@@ -43,8 +43,19 @@
   width: 50px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-header {
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
 @media only screen and (max-width: 480px) {
-  .App {
+  .center-home {
     text-align: center;
   }
 }
@@ -53,7 +64,7 @@
 and (min-device-width: 375px) 
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3) {
-  .App {
+  .center-home {
     text-align: center;
     justify-content: space-evenly;
   }

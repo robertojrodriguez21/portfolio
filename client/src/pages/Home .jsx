@@ -3,7 +3,7 @@ import myPicture from "../images/my_picture.png"
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container center-home">
       <br />
       <div className="container-fluid">
         <div className="row">
@@ -19,22 +19,21 @@ const Home = () => {
       </div>
       <hr />
       <div className="container">
-        <br />
         <div className="container">
           <Link to={'/about'}>
-            <button type="button" class="btn btn-primary btn-lg">More About Me</button>
+            <button type="button" className="btn btn-primary btn-lg">More About Me</button>
           </Link>
         </div>
         <br />
         <div className="container">
           <Link to={'/portfolio'}>
-            <button type="button" class="btn btn-primary btn-lg">View My Projects</button>
+            <button type="button" className="btn btn-primary btn-lg">View Portfolio</button>
           </Link>
         </div>
         <br />
         <div className="container">
           <Link to={'/contact'}>
-            <button type="button" class="btn btn-primary btn-lg">Contact Me</button>
+            <button type="button" className="btn btn-primary btn-lg">Contact Me</button>
           </Link>
         </div>
         <br />

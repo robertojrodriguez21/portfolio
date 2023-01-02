@@ -29,7 +29,7 @@ const Contact = () => {
           <h5 className="col-10 offset-1 text-start align-self-center">GitHub</h5>
         </div>
       </div>
-      <div className="container"></div>
+      <br />
     </div>
   )
 }

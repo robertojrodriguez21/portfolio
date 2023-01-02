@@ -6,32 +6,50 @@ const About = () => {
   return (
     <div className="container">
       <br />
-      <h1>A little about me ...</h1>
+      <h1>About Me</h1>
+      <hr />
       <div className="clearfix">
         <img src={laptopMan} className="col-3 float-start laptopMan" alt="Laptop Man" />
-        <h5>Hello, my name is Roberto J. Rodriguez. I was born and raised in Chicago. Starting high school I knew that I wanted to go into tech, so I took my first Computer Science class.</h5>
-        <h5>I took a couple classes a university but didn't enjoy the way any of the classes were structured. This enabled me to start a bootcamp at General Assembly.I built a couple applications during my time at General Assembly.</h5>
-        <h5> Below is the application I am most proud of, but you can see more applications <Link to={'/portfolio'} >here</Link> or hit the 'Portfolio' tab.</h5>
+        <h5>Hello, my name is Roberto J. Rodriguez. I was born and raised in Chicago. Starting high school I knew that I wanted to go into tech, so I took my first Computer Science class. The class went over basic HTML, but I wanted to learn more.</h5>
+        <h5>I took a couple classes at a local university but didn't enjoy the way any of the classes were structured. This enabled me to start a bootcamp at General Assembly. I built a couple of applications during my time at General Assembly that I am very proud of.</h5>
+        <h5>You can see all of my applications <Link to={'/portfolio'} >here</Link> or hit the 'Portfolio' tab.</h5>
       </div>
       <hr />
       <div className="container">
-        <br />
+        <h2>Skill Set</h2>
+        <div className="row">
+          <div className="container col-lg-4">
+            <h4 className="skill-header">Languages</h4>
+            <ul>
+              <li>Javascript</li>
+              <li>HTML/HTML5</li>
+              <li>CSS</li>
+              <li>Java</li>
+              <li>PHP</li>
+              <li>Swift</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div className="container col-lg-8">
+            <h4 className="skill-header">Software</h4>
+            <ul>
+              <li>Node.js</li>
+              <li>React</li>
+              <li>Express</li>
+              <li>Mongoose</li>
+              <li>Bootstrap</li>
+              <li>PostgresSQL</li>
+              <li>Flask</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div className="container text-center">
         <div className="container">
           <a href={resume} download>
             <button type="button" className="btn btn-primary btn-lg">Download Resume</button>
           </a>
-        </div>
-        <br />
-        <div className="container">
-          <Link to={'/portfolio'}>
-            <button type="button" class="btn btn-primary btn-lg">View My Projects</button>
-          </Link>
-        </div>
-        <br />
-        <div className="container">
-          <Link to={'/contact'}>
-            <button type="button" class="btn btn-primary btn-lg">Contact Me</button>
-          </Link>
         </div>
         <br />
       </div>
