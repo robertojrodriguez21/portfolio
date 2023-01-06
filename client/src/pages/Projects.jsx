@@ -18,8 +18,8 @@ const Projects = () => {
             </div>
             <img src="https://raw.githubusercontent.com/robertojrodriguez21/finance-tracker/main/diagrams/homepage.png" alt="Finance Tracker Home Page" />
             <div className="card-body">
-              <a href="https://github.com/robertojrodriguez21/finance-tracker" className="card-link">GitHub</a>
               <a href="https://finance-tracker-fe.herokuapp.com/" className="card-link">Website</a>
+              <a href="https://github.com/robertojrodriguez21/finance-tracker" className="card-link">GitHub</a>
             </div>
             <div className="card-footer text-muted">
               Last update: December 19, 2022
@@ -38,9 +38,9 @@ const Projects = () => {
             </div>
             <img src="https://camo.githubusercontent.com/d1b932356dd124999febd550bc5957cdd04df87261105415f1c2f72bd02651a0/68747470733a2f2f692e696d6775722e636f6d2f30527537654d442e706e67" alt="Blog Feed Page" />
             <div className="card-body">
+              <a href="https://nameless-atoll-81684.herokuapp.com/" className="card-link">Website</a>
               <a href="https://github.com/robertojrodriguez21/blog-frontend" className="card-link">GitHub Frontend</a>
               <a href="https://github.com/KyleDavis1985/blog-backend" className="card-link">GitHub Backend</a>
-              <a href="https://nameless-atoll-81684.herokuapp.com/" className="card-link">Website</a>
             </div>
             <div className="card-footer text-muted">
               Last update: November 18, 2022
@@ -57,8 +57,8 @@ const Projects = () => {
             </div>
             <img src="https://raw.githubusercontent.com/robertojrodriguez21/wish-list/main/images/Home.png" alt="Wish List App Landing Page" />
             <div className="card-body">
-              <a href="https://github.com/robertojrodriguez21/wish-list" className="card-link">GitHub</a>
               <a href="https://calm-coast-76645.herokuapp.com/" className="card-link">Website</a>
+              <a href="https://github.com/robertojrodriguez21/wish-list" className="card-link">GitHub</a>
             </div>
             <div className="card-footer text-muted">
               Last update: November 2, 2022
@@ -75,8 +75,8 @@ const Projects = () => {
             </div>
             <img src={whackAMole} alt="Whack-A-Mole Landing Page" />
             <div className="card-body">
-              <a href="https://github.com/robertojrodriguez21/whack-a-mole" className="card-link">GitHub</a>
               <a href="https://my-whack-a-mole.surge.sh/index.html" className="card-link">Website</a>
+              <a href="https://github.com/robertojrodriguez21/whack-a-mole" className="card-link">GitHub</a>
             </div>
             <div className="card-footer text-muted">
               Last update: October 7, 2022
@@ -93,8 +93,8 @@ const Projects = () => {
             </div>
             <img src={ticTacToe} alt="Tic-Tac-Toe Landing Page" />
             <div className="card-body">
-              <a href="https://github.com/robertojrodriguez21/tic-tac-toe" className="card-link">GitHub</a>
               <a href="https://numerous-art.surge.sh/" className="card-link">Website</a>
+              <a href="https://github.com/robertojrodriguez21/tic-tac-toe" className="card-link">GitHub</a>
             </div>
             <div className="card-footer text-muted">
               Last update: September 26, 2022

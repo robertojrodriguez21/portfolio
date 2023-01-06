@@ -54,6 +54,14 @@ ul {
   margin-top: 10px;
 }
 
+.hi-roberto {
+  font-size: 45px;
+}
+
+.left-side-padding-home {
+  padding-left: 10px;
+}
+
 @media only screen and (max-width: 480px) {
   .center-home {
     text-align: center;
